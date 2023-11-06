@@ -1,0 +1,4 @@
+import { PrismaClient } from "@prisma/client"; import ResourceRepository from
+"sygnus"; import prismaClient from "../database/prismaClient"; export default
+class <%= props.pCaseName %>Repository extends BaseRepository { constructor() {
+super(prismaClient, "<%= props.name %>"); } }

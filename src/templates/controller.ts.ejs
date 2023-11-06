@@ -1,0 +1,8 @@
+import <%= props.pCaseName %>UseCase from "../useCases/<%= props.pCaseName %>UseCase";
+import ResourceController from "sygnus";
+
+export default class <%= props.pCaseName %>Controller extends ResourceController {
+  constructor() {
+    super(new <%= props.pCaseName %>UseCase());
+  }
+}

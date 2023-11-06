@@ -1,0 +1,8 @@
+import <%= props.pCaseName %>Repository from "../repositories/<%= props.pCaseName %>Repository";
+import ResourceUseCase from "sygnus";
+
+export default class <%= props.pCaseName %>UseCase extends ResourceUseCase<<%= props.pCaseName %>Repository> {
+  constructor() {
+    super(new <%= props.pCaseName %>Repository());
+  }
+}
