@@ -4,7 +4,6 @@
   "description": "sygnus",
   "private": false,
   "main": "index.ts",
-  "types": "build/types/types.d.ts",
   "prisma": {
     "schema": "example/database/prisma/schema.prisma",
     "seed": "tsx ./src/database/prisma/seeds/index.ts"
