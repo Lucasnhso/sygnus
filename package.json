@@ -1,6 +1,6 @@
 {
   "name": "sygnus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sygnus",
   "private": false,
   "types": "build/types/types.d.ts",
