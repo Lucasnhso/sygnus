@@ -1,6 +1,6 @@
-import ResourceRepository from './Repository'
+import { ResourceRepository } from './Repository'
 
-export default class ResourceUseCase<T extends ResourceRepository = ResourceRepository> {
+export class ResourceUseCase<T extends ResourceRepository = ResourceRepository> {
   protected repository: T
 
   constructor(repository: T) {

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
-import ResourceUseCase from './UseCase'
+import { ResourceUseCase } from './UseCase'
 
-export default class ResourceController<T extends ResourceUseCase = ResourceUseCase> {
+export class ResourceController<T extends ResourceUseCase = ResourceUseCase> {
   protected useCase: T
 
   constructor(useCase: T) {

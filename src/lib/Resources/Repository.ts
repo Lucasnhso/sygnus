@@ -1,6 +1,6 @@
 import { PrismaClient, Prisma } from '@prisma/client'
 
-export default class ResourceRepository {
+export class ResourceRepository {
   protected model
   protected prismaClient: PrismaClient
 
