@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "sygnus",
   "private": false,
+  "main": "index.ts",
   "types": "build/types/types.d.ts",
   "prisma": {
     "schema": "example/database/prisma/schema.prisma",
