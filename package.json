@@ -1,6 +1,6 @@
 {
   "name": "sygnus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sygnus",
   "private": false,
   "main": "index.ts",
