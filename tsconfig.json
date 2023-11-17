@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "lib": ["ES2020", "scripthost", "dom"],
     "module": "commonjs",
@@ -11,7 +11,8 @@
     "outDir": "build",
     "strict": false,
     "target": "ES2020",
-    "declaration": true
+    "declaration": true,
+    "esModuleInterop": true
   },
   "include": ["**/*"],
   "exclude": ["node_modules", "examples"]
